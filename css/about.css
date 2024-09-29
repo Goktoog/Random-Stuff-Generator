@@ -1,0 +1,75 @@
+body {
+    background-color: #202124;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.site-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.site-nav li {
+    margin-left: 20px;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.site-footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    /* İçeriği ortalamak için */
+}
+
+.site-footer p {
+    margin: 0;
+}
